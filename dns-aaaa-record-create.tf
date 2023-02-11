@@ -4,9 +4,9 @@
 
 # Create a DNS AAAA Record for a computer
 resource "kopicloud_dns_aaaa_record" "test_aaaa" {
-  hostname   = "atftestvm01"
-  ip_address = "100.30.1.1"
-  zone_name  = "kopicloud.local"
+  hostname     = "computer75v6"
+  ipv6_address = "2340:0023:AABA:0A01:0055:5054:9ABC:ABB0"
+  zone_name    = "kopicloud.local"
 }
 
 # Output Created DNS AAAA Record 
