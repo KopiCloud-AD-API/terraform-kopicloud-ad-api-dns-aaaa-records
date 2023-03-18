@@ -19,3 +19,4 @@ output "dns_aaaa_record_hostname" {
   description = "Hostname of Created DNS AAAA Record"
   value       = resource.kopicloud_dns_aaaa_record.test_aaaa.hostname
 }
+
