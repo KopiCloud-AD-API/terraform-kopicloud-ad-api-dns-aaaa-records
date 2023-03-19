@@ -50,4 +50,3 @@ output "OUTPUT_dns_aaaa_records_list_hostname" {
   description = "List existing DNS AAAA Records filtered by Hostname"
   value       = data.kopicloud_dns_aaaa_records_list.test_aaaa_hostname
 }
-
